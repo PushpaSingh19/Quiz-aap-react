@@ -1,0 +1,21 @@
+.custom-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-dropdown .dropdown-item {
+  color: #333;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-dropdown .dropdown-item:hover {
+  background-color: #419af3;
+}
+
+.custom-dropdown .dropdown-item:active {
+  background-color: #ced4da;
+  color: #000;
+}
